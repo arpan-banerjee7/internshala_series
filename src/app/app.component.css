@@ -1,0 +1,23 @@
+.container {
+  margin-top: 50px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+label {
+  padding: 5px;
+  border: 2px solid rgba(242, 243, 183, 0.966);
+  border-radius: 5px;
+  background-color: rgba(242, 243, 183, 0.925);
+  margin-right: 20px;
+}
+
+.result {
+  margin-top: 40px;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+}

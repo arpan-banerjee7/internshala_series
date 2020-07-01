@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xl-5 col-lg-12 col-md-8 col-sm-10 mx-auto">
+      <h2>2, 3, 10, 15, 26, 35, 50, 63, 82</h2>
+      <label>Enter the index</label>
+      <input type="text" [(ngModel)]="userInput" />
+      <button class="btn btn-primary btn-lg btn-block" (click)="onClicked()">
+        Display Number
+      </button>
+      <div class="result">
+        <h2>{{ displayResult }}</h2>
+      </div>
+    </div>
+  </div>
+</div>
